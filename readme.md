@@ -2,7 +2,14 @@
 
 ## Inline
 Mesma linha os conteúdos
-não pode definir largura e altura
+Não pode definir largura e altura
 Comportamento de palavra
 
 ## Block
+Ocupa a linha todas
+Consegue definir largura e altura
+
+## Inline-block
+Conteúdo na mesma linha 
+Consegue definir largura e altura
+Comportamento de palavra

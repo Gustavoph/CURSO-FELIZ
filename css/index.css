@@ -1,11 +1,17 @@
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: #7B1D1D;
+    border-bottom: 10px solid black;
+    padding: 10px 20px;
 }
 nav {
      text-align: right;
 }
 
 a {
+    display: inline-flex;
+    align-items: center;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -14,13 +20,19 @@ a {
     margin-right: 30px;
 }
 
+a::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #CA4747;
+    margin-right: 10px;
+}
+
 #button {
     display: inline-block;
     background-color: #CA4747;
-    height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 60px;
+    padding: 18px 20px;
+    margin-right: 0px;
     box-shadow: 5px 5px 0px black;
     /* x y bluer color */
 }
